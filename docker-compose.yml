@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:15
+    container_name: ai_vendor_bill_db
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  odoo:
+    image: odoo:18
+    container_name: ai_vendor_bill_odoo
+    depends_on:
+      - db
+    ports:
+      - "8070:8069"
+    volumes:
+      - ./addons:/mnt/extra-addons
+      - odoo_data:/var/lib/odoo
+    environment:
+      HOST: db
+      USER: odoo
+      PASSWORD: odoo
+
+volumes:
+  db_data:
+  odoo_data:
