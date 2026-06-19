@@ -30,6 +30,12 @@
                             invisible="state != 'draft'"/>
                     <field name="state" widget="statusbar"
                         statusbar_visible="draft,uploaded,processed,error"/>
+
+                    <button name="action_extract_text"
+                        type="object"
+                        string="Extract Text"
+                        class="btn-secondary"
+                        invisible="state != 'uploaded'"/>
                 </header>
 
                 <sheet>
@@ -42,6 +48,10 @@
                         <field name="invoice_date"/>
                         <field name="total_amount"/>
                         <field name="state"/>
+                    </group>
+
+                    <group string="Extracted Text">
+                        <field name="extracted_text"/>
                     </group>
                 </sheet>
             </form>

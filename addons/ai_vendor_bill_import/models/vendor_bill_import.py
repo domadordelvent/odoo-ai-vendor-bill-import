@@ -8,6 +8,7 @@ class AiVendorBillImport(models.Model):
     name = fields.Char(string="Document Name", required=True)
     pdf_file = fields.Binary(string="Vendor Bill PDF", attachment=True)
     pdf_filename = fields.Char(string="PDF Filename")
+    extracted_text = fields.Text(string="Extracted Text")
 
     vendor_name = fields.Char(string="Vendor")
     invoice_number = fields.Char(string="Invoice Number")
@@ -29,4 +30,10 @@ class AiVendorBillImport(models.Model):
         for record in self:
             if record.pdf_file:
                 record.state = "uploaded"
+        return True
+    
+    def action_extract_text(self):
+        for record in self:
+            record.extracted_text = "OCR not implemented yet. Text extraction will appear here."
+            record.state = "processed"
         return True
