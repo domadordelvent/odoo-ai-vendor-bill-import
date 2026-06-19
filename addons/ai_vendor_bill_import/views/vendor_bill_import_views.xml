@@ -21,9 +21,22 @@
         <field name="model">ai.vendor.bill.import</field>
         <field name="arch" type="xml">
             <form>
+
+                <header>
+                    <button name="action_mark_uploaded"
+                            type="object"
+                            string="Mark as Uploaded"
+                            class="btn-primary"
+                            invisible="state != 'draft'"/>
+                    <field name="state" widget="statusbar"
+                        statusbar_visible="draft,uploaded,processed,error"/>
+                </header>
+
                 <sheet>
                     <group>
                         <field name="name"/>
+                        <field name="pdf_file" filename="pdf_filename"/>
+                        <field name="pdf_filename" invisible="1"/>
                         <field name="vendor_name"/>
                         <field name="invoice_number"/>
                         <field name="invoice_date"/>
