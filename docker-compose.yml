@@ -10,7 +10,8 @@ services:
       - db_data:/var/lib/postgresql/data
 
   odoo:
-    image: odoo:18
+    build: .
+    image: ai-vendor-bill-odoo:18
     container_name: ai_vendor_bill_odoo
     depends_on:
       - db
