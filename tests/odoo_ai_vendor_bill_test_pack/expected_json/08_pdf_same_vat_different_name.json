@@ -1,0 +1,17 @@
+{
+  "vendor_name": "Tecnologia BCN, S.L.",
+  "vendor_vat": "B12345678",
+  "invoice_number": "TB-2026-002",
+  "invoice_date": "2026-07-12",
+  "base_amount": 189.0,
+  "tax_amount": 39.69,
+  "total_amount": 228.69,
+  "lines": [
+    {
+      "description": "Monitor 27 polzades",
+      "quantity": 1,
+      "unit_price": 189.0,
+      "tax_rate": 21
+    }
+  ]
+}

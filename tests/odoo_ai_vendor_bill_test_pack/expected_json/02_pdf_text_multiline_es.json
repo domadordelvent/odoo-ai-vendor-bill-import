@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Suministros Delta SL",
+  "vendor_vat": "B22334455",
+  "invoice_number": "SD/2026/184",
+  "invoice_date": "2026-07-18",
+  "base_amount": 285.6,
+  "tax_amount": 59.98,
+  "total_amount": 345.58,
+  "lines": [
+    {
+      "description": "Cable de red Cat 6",
+      "quantity": 10,
+      "unit_price": 3.25,
+      "tax_rate": 21
+    },
+    {
+      "description": "Adaptador USB-C",
+      "quantity": 4,
+      "unit_price": 14.9,
+      "tax_rate": 21
+    },
+    {
+      "description": "Regleta 6 tomas",
+      "quantity": 3,
+      "unit_price": 11.5,
+      "tax_rate": 21
+    },
+    {
+      "description": "Soporte monitor",
+      "quantity": 2,
+      "unit_price": 37.0,
+      "tax_rate": 21
+    },
+    {
+      "description": "Servicio de instalación",
+      "quantity": 1,
+      "unit_price": 85.0,
+      "tax_rate": 21
+    }
+  ]
+}

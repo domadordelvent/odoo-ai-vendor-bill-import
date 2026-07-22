@@ -1,0 +1,17 @@
+{
+  "vendor_name": "Autònom Serveis Creatius",
+  "vendor_vat": null,
+  "invoice_number": "2026-A/07#003",
+  "invoice_date": "2026-07-13",
+  "base_amount": 350.0,
+  "tax_amount": 73.5,
+  "total_amount": 423.5,
+  "lines": [
+    {
+      "description": "Disseny de logotip",
+      "quantity": 1,
+      "unit_price": 350.0,
+      "tax_rate": 21
+    }
+  ]
+}

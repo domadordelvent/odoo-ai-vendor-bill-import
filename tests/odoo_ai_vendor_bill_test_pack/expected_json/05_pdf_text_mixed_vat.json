@@ -1,0 +1,23 @@
+{
+  "vendor_name": "Hotel Mediterrani SL",
+  "vendor_vat": "B66778899",
+  "invoice_number": "HM-2026-0987",
+  "invoice_date": "2026-07-15",
+  "base_amount": 218.0,
+  "tax_amount": 24.88,
+  "total_amount": 242.88,
+  "lines": [
+    {
+      "description": "Allotjament",
+      "quantity": 2,
+      "unit_price": 95.0,
+      "tax_rate": 10
+    },
+    {
+      "description": "Aparcament",
+      "quantity": 2,
+      "unit_price": 14.0,
+      "tax_rate": 21
+    }
+  ]
+}

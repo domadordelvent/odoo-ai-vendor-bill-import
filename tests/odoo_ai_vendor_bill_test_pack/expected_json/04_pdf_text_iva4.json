@@ -1,0 +1,23 @@
+{
+  "vendor_name": "Llibres Tramuntana SL",
+  "vendor_vat": "B11223344",
+  "invoice_number": "LT-00428",
+  "invoice_date": "2026-07-16",
+  "base_amount": 138.85,
+  "tax_amount": 5.55,
+  "total_amount": 144.4,
+  "lines": [
+    {
+      "description": "Manual d'Odoo 18",
+      "quantity": 3,
+      "unit_price": 29.95,
+      "tax_rate": 4
+    },
+    {
+      "description": "Introducció a Python",
+      "quantity": 2,
+      "unit_price": 24.5,
+      "tax_rate": 4
+    }
+  ]
+}

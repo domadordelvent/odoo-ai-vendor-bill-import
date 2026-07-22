@@ -5,4 +5,12 @@ __pycache__/
 *.log
 .idea/
 .vscode/
-tests/sample.pdf
+
+# Python
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+*.zip
+.~lock*
+*.odt

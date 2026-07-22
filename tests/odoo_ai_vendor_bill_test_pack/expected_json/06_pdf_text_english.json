@@ -1,0 +1,23 @@
+{
+  "vendor_name": "Cloud Services Europe Ltd",
+  "vendor_vat": "IE6388047V",
+  "invoice_number": "CSE-INV-2026-771",
+  "invoice_date": "2026-07-14",
+  "base_amount": 104.0,
+  "tax_amount": 21.84,
+  "total_amount": 125.84,
+  "lines": [
+    {
+      "description": "Cloud hosting - July",
+      "quantity": 1,
+      "unit_price": 89.0,
+      "tax_rate": 21
+    },
+    {
+      "description": "Automated backups",
+      "quantity": 1,
+      "unit_price": 15.0,
+      "tax_rate": 21
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "vendor_name": "Industrial Ponent SA",
+  "vendor_vat": "A55667788",
+  "invoice_number": "IP-2026-220",
+  "invoice_date": "2026-07-11",
+  "base_amount": 601.2,
+  "tax_amount": 126.25,
+  "total_amount": 727.45,
+  "lines": [
+    {
+      "description": "Component industrial 01",
+      "quantity": 2,
+      "unit_price": 6.7,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 02",
+      "quantity": 3,
+      "unit_price": 7.9,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 03",
+      "quantity": 1,
+      "unit_price": 9.1,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 04",
+      "quantity": 2,
+      "unit_price": 10.3,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 05",
+      "quantity": 3,
+      "unit_price": 11.5,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 06",
+      "quantity": 1,
+      "unit_price": 12.7,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 07",
+      "quantity": 2,
+      "unit_price": 13.9,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 08",
+      "quantity": 3,
+      "unit_price": 15.1,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 09",
+      "quantity": 1,
+      "unit_price": 16.299999999999997,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 10",
+      "quantity": 2,
+      "unit_price": 17.5,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 11",
+      "quantity": 3,
+      "unit_price": 18.7,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 12",
+      "quantity": 1,
+      "unit_price": 19.9,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 13",
+      "quantity": 2,
+      "unit_price": 21.1,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 14",
+      "quantity": 3,
+      "unit_price": 22.3,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 15",
+      "quantity": 1,
+      "unit_price": 23.5,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 16",
+      "quantity": 2,
+      "unit_price": 24.7,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 17",
+      "quantity": 3,
+      "unit_price": 25.9,
+      "tax_rate": 21
+    },
+    {
+      "description": "Component industrial 18",
+      "quantity": 1,
+      "unit_price": 27.099999999999998,
+      "tax_rate": 21
+    }
+  ]
+}

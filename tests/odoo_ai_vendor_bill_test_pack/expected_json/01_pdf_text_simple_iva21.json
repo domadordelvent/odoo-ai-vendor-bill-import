@@ -1,0 +1,23 @@
+{
+  "vendor_name": "Tecnologia Barcelona SL",
+  "vendor_vat": "B12345678",
+  "invoice_number": "TB-2026-001",
+  "invoice_date": "2026-07-19",
+  "base_amount": 68.0,
+  "tax_amount": 14.28,
+  "total_amount": 82.28,
+  "lines": [
+    {
+      "description": "Teclat mecànic",
+      "quantity": 2,
+      "unit_price": 25.0,
+      "tax_rate": 21
+    },
+    {
+      "description": "Ratolí òptic",
+      "quantity": 1,
+      "unit_price": 18.0,
+      "tax_rate": 21
+    }
+  ]
+}

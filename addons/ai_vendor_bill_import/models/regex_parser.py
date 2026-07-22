@@ -56,7 +56,16 @@ def find_first_match(text, patterns):
 
 
 def normalize_amount(value):
-    value = value.replace(".", "").replace(",", ".")
+    value = value.strip().replace("€", "").replace(" ", "")
+
+    if "," in value and "." in value:
+        # 1.234,56
+        value = value.replace(".", "").replace(",", ".")
+    elif "," in value:
+        # 1234,56
+        value = value.replace(",", ".")
+    # si només hi ha punt: 415.50, ja està bé
+
     try:
         return float(value)
     except ValueError:

@@ -8,6 +8,7 @@
             <list>
                 <field name="name"/>
                 <field name="vendor_name"/>
+                <field name="vendor_vat" />
                 <field name="invoice_number"/>
                 <field name="invoice_date"/>
                 <field name="total_amount"/>
@@ -36,6 +37,11 @@
                         string="Extract Text"
                         class="btn-secondary"
                         invisible="state != 'uploaded'"/>
+                    <button name="action_create_vendor_bill"
+                        type="object"
+                        string="Create Vendor Bill"
+                        class="btn-primary"
+                        invisible="state != 'processed'"/>
                 </header>
 
                 <sheet>
@@ -44,9 +50,11 @@
                         <field name="pdf_file" filename="pdf_filename"/>
                         <field name="pdf_filename" invisible="1"/>
                         <field name="vendor_name"/>
+                         <field name="vendor_vat" />
                         <field name="invoice_number"/>
                         <field name="invoice_date"/>
                         <field name="total_amount"/>
+                        <field name="vendor_bill_id" readonly="1"/>
                         <field name="state"/>
                     </group>
 

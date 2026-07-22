@@ -1,0 +1,17 @@
+{
+  "vendor_name": "Reparacions Garbí SL",
+  "vendor_vat": "B99887766",
+  "invoice_number": null,
+  "invoice_date": "2026-07-10",
+  "base_amount": 90.0,
+  "tax_amount": 18.9,
+  "total_amount": 108.9,
+  "lines": [
+    {
+      "description": "Reparació equip informàtic",
+      "quantity": 2,
+      "unit_price": 45.0,
+      "tax_rate": 21
+    }
+  ]
+}

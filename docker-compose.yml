@@ -17,6 +17,8 @@ services:
       - db
     ports:
       - "8070:8069"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - ./addons:/mnt/extra-addons
       - odoo_data:/var/lib/odoo
