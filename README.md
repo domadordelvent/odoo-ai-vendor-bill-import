@@ -6,9 +6,10 @@ The module extracts key invoice information, validates the results and creates a
 
 ![Overview](docs/images/overview.png)
 
-## Demo
+## 🎬 Demo
 
-[![Watch the demo](docs/images/overview.png)](https://youtu.be/UxhYnOoMLi0)
+▶️ **Watch the demo on YouTube:** https://youtu.be/UxhYnOoMLi0
+
 
 ## Features
 
@@ -101,7 +102,9 @@ Install the module in Odoo.
 
 ### Module Icon
 
-![Module Icon](docs/images/app_icon.png)
+<p align="center">
+  <img src="addons/ai_vendor_bill_import/static/description/icon.png" width="180" alt="Odoo AI Vendor Bill Import">
+</p>
 
 ## Testing
 
